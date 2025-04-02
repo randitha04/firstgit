@@ -1,3 +1,33 @@
 h1{
     color: brown;
 }
+
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: space-around; /* Space out the links evenly */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Slightly lighter background on hover */
+}
